@@ -29,12 +29,11 @@ gsap.fromTo(".bg-image",
     opacity:1,
     ease:"power3.out",
     duration:1.5,
-    rotation:360,
     delay:2
 });
 gsap.fromTo(".title h1",
 {opacity:0,y:100,},
-{opacity:1,y:0,ease: "power3.out", duration:1,delay:3}
+{opacity:1,y:0,ease: "power3.out", duration:2,delay:3}
 );
 //title
 gsap.fromTo(".title h2",
